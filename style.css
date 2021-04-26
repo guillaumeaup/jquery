@@ -1,0 +1,46 @@
+body {
+    background-color: blanchedalmond;
+}
+
+p {
+  text-align: center;  
+  font-size: 35px;
+}
+
+td{
+  text-align: center; 
+  border-radius: 40px; 
+}
+
+.pregame{
+  border: 15px solid #778899;
+  background-color: white;
+  margin : 0 auto;
+  width: 500px;
+  border-radius: 20px;
+}
+
+.newGame {
+  display: block;
+  margin : auto;
+  width: 150px;
+  height: 75px;
+  border-radius: 15px;
+  color: white;
+  background-color: #778899;
+}
+
+.reset {
+  display: block;
+  margin : auto;
+  width: 150px;
+  height: 75px;
+  border-radius: 15px;
+}
+
+#history{
+  width: 500px;
+  display: block;
+  margin : auto;
+  text-align: center;
+}
