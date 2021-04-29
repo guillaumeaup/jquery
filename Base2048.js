@@ -1,12 +1,16 @@
 window.onload = function () {
+
+    $('.lol').click(function(){
+        window.location.href='http://www.guillaumeaupretre.com';
+     })
     
     $('.Games').append('<table></table>')
     $('table').append('<tr></tr><tr></tr><tr></tr><tr></tr>')
     $('tr').append('<td></td><td></td><td></td><td></td>')
-    $("td").hide().css("width", "120px").css("height", "120px").css("background-color", "#D3D3D3").css("color", "black").css("font-size", "3em")
+    $("td").hide().css("width", "110px").css("height", "110px").css("background-color", "#D3D3D3").css("color", "black").css("font-size", "2.5em")
     $('p:eq(1)').hide()
     $('.reset').hide()
-    $('.newGame').css("font-size", "30px")
+    $('.newGame').css("font-size", "25px")
     $('.pregame').hide()
     
     $('.newGame').click( function ()    {
@@ -15,7 +19,7 @@ window.onload = function () {
         $('td').show()
         $('p:eq(0)').hide()
         $('p:eq(1)').show()
-        $('.reset').show().css("font-size", "20px").css("width", "")
+        $('.reset').show().css("font-size", "19px").css("width", "100px").css("height", "35px")
         $('.newGame').hide()
         $('#history').hide()
         $('.reset').click( function ()    {
@@ -310,7 +314,7 @@ window.onload = function () {
             && (tab[2] != tab[6]) && (tab[6] != tab[10]) && (tab[10] != tab[14])
             && (tab[3] != tab[7]) && (tab[7] != tab[11]) && (tab[11] != tab[15])  )  {
                 alert("Game Over !")
-                location.replace("file:///home/guillaume/sharefolder/javascript_2048/index.html")
+                location.replace("http:///www.guillaumeaupretre.com/jquery");
         }
     }
 }

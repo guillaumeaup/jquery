@@ -4,7 +4,7 @@ body {
 
 p {
   text-align: center;  
-  font-size: 35px;
+  font-size: 25px;
 }
 
 td{
@@ -16,18 +16,17 @@ td{
   border: 15px solid #778899;
   background-color: white;
   margin : 0 auto;
-  width: 500px;
+  width: 440px;
   border-radius: 20px;
 }
 
 .newGame {
   display: block;
   margin : auto;
-  width: 150px;
+  width: 200px;
   height: 75px;
   border-radius: 15px;
-  color: white;
-  background-color: #778899;
+
 }
 
 .reset {
@@ -36,6 +35,7 @@ td{
   width: 150px;
   height: 75px;
   border-radius: 15px;
+  opacity: 0.5;
 }
 
 #history{
@@ -43,4 +43,10 @@ td{
   display: block;
   margin : auto;
   text-align: center;
+}
+
+
+.lol {
+  margin-left: 30px;
+  margin-top: 10px;
 }
